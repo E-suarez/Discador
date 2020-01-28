@@ -1,0 +1,27 @@
+.left-nav{
+    background-color: #ffffff;
+    height: 92vh;
+    width: 70px;
+    position: fixed;
+    margin-top: 80px;
+    z-index: 1000;
+    text-align: center;
+    padding-top: 33px;
+    border-radius: 0px 10px 10px 0px;
+    -webkit-box-shadow: 22px 0px 29px -16px rgba(0,0,0,0.17);
+    -moz-box-shadow: 22px 0px 29px -16px rgba(0,0,0,0.17);
+    box-shadow: 22px 0px 29px -16px rgba(0,0,0,0.17);
+
+    a{
+        text-decoration: none;
+    }
+
+
+    i{
+        color: #828282;
+        display: block;
+        font-size: 24px;
+        padding: 10px;
+        margin-bottom: 8px;
+    }
+}

@@ -1,0 +1,18 @@
+//bootstrap//
+@import 'vendors/bootstrap-4.4.1/scss/bootstrap.scss';
+
+
+//variables//
+@import 'variables/variables';
+
+//componentes//
+@import 'components/header.scss';
+@import 'components/left-nav.scss';
+
+
+//secciones//
+@import 'layouts/login.scss';
+@import 'layouts/wizard.scss';
+@import 'layouts/campaing-list.scss';
+
+

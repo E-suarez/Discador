@@ -1,0 +1,89 @@
+body{
+    font-family: $lato;
+}
+
+.login{
+     background-image: url(../img/login_bg.jpg);
+     height: 100vh;
+     background-repeat: no-repeat; 
+     background-position: center;
+     
+
+     &__logo{
+         display: inline-block;
+         padding: 8vh 10vw;
+         margin-top: 30vh;   
+     }
+
+     &__form-container{
+         width: 100%;
+         text-align: center;
+     }
+
+     &__form{
+         text-align: center;
+         background-color: $white;
+         margin: 13vh 10vw 0vh 4vw;
+         
+         height: 77vh;
+         border-radius: 20px;
+         padding: 9vh 4vw;
+         -webkit-box-shadow: 0px 78px 73px -18px rgba(0,0,0,0.64);
+         -moz-box-shadow: 0px 78px 73px -18px rgba(0,0,0,0.64);
+         box-shadow: 0px 78px 73px -18px rgba(0,0,0,0.64);
+
+
+         h1{
+            margin: 10px 0px 70px 0px;
+            color: #bbbbbb;
+            font-weight: 800;
+         }
+
+         form{
+             text-align: left;
+         }
+
+         input{
+             margin: 20px 0px 50px 0px;
+             border: 0px;
+             background-color: none;
+             border-bottom: 1px solid #bdbdbd;
+             font-size: 1.2em;
+             
+         }
+
+         &__okbtn{
+            background-color: #565656;
+            font-size: 1.5em;
+            padding: 10px 40px;
+            margin-top: 5vh;
+            border: 0px;
+            border-radius: 37px;
+            -webkit-box-shadow: 0px 9px 23px -12px rgba(0,0,0,0.55);
+            -moz-box-shadow: 0px 9px 23px -12px rgba(0,0,0,0.55);
+            box-shadow: 0px 9px 23px -12px rgba(0,0,0,0.55);
+            transition: 0.5;
+         }
+    
+         &__okbtn:hover{
+            background-color: #353535;
+            -webkit-box-shadow: 0px 17px 32px -20px rgba(0,0,0,0.66);
+            -moz-box-shadow: 0px 17px 32px -20px rgba(0,0,0,0.66);
+            box-shadow: 0px 17px 32px -20px rgba(0,0,0,0.66);
+        }
+
+        &__recoverypw{
+    
+            h3{
+                color: #747474;
+                font-size: 1em;
+                margin-top: 40px;
+                font-weight: 600;
+            }
+            h3:hover{
+                color: black;
+            }
+        }
+     }
+
+}

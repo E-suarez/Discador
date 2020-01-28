@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Discador/Wizard</title>
+    <!--Font Awsome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <!--Estilos Propios-->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <header>
+        <!--navegación superior-->
+        <nav class="navbar navbar-expand-lg black-1">
+            <a class="navbar-brand" href="#">Sixbell</a>
+            <div class="navbar-description">
+                <i class="fas fa-flag"></i>
+                <p>Nombre de campaña</p>
+            </div>
+            <div class="navbar-user">
+                <p>Nombre Usuario</p>
+                <i class="fas fa-user"></i>
+            </div>
+        </nav>
+    </header>
+    <!--navegación isquierda-->
+    <nav class="left-nav">
+        <a href="#"><i class="fas fa-plus-circle"></i></a>
+        <a href="#"><i class="fas fa-list-ul"></i></a>
+    </nav>
+
+
+    <!--Titulo y busqueda de campaña
+    <section class="campaing-description">
+        <div style="margin-right: 0px;" class="row">
+            <h1>Campañas</h1>
+            <form class="campaing-description__form">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                        placeholder="Buscar">  
+                </div>
+            </form>
+            <a href="#"><i class="fas fa-search search-icon"></i></a>
+        </div>
+    </section>
+    <section class="campaing__metadata-cont">
+
+        <!--lista de campaña
+        <form class="list-camp">
+            <div class="form-group">
+                <div>
+                    <div class="">
+                        <table class="table">
+                            <thead class="thead">
+                                <tr>
+                                    <th class="list-camp__first-child-margin" scope="col">Nombre de Campaña</th>
+                                    <th scope="col">Contact List</th>
+                                    <th scope="col">Numero de Contact List</th>
+                                    <th scope="col">Dato1</th>
+                                    <th scope="col">Dato2</th>
+                                    <th scope="col">Dato3</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    
+                                    <td>Nombre de campaña</td>
+                                    <td><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td>Nombre de campaña</td>
+                                    <td><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td>Nombre de campaña</td>
+                                    <td><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td>Nombre de campaña</td>
+                                    <td><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td>Nombre de campaña</td>
+                                    <td><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td>Nombre de campaña</td>
+                                    <td><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td>Nombre de campaña</td>
+                                    <td><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td>Nombre de campaña</td>
+                                    <td><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td>Nombre de campaña</td>
+                                    <td><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </form>-->
+
+
+        <!--lista de contact list
+        <section class="campaing-description">
+            <div style="margin-right: 0px;" class="row">
+                <h1>Nombre de la Campaña</h1>
+                <p class="campain-description__p">Archivos: <span style="font-weight: 800;color: #666666;">65</span></p>
+            </div>
+        </section>
+
+
+        <form class="list-camp">
+            <div class="form-group">
+                <div>
+                    <div class="">
+                        <table class="table">
+                            <thead class="thead">
+                                <tr>
+                                    <th style="padding-left: 50px;min-width: 140px;" scope="col">Discar</th>
+                                    <th scope="col">Nombre de Contact List</th>
+                                    <th scope="col">Explorar</th>
+                                    <th scope="col">Numero 2</th>
+                                    <th scope="col">Dato1</th>
+                                    <th scope="col">Dato2</th>
+                                    <th scope="col">Dato3</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="#"><i class="fas fa-play-circle"></i></a></td>
+                                    <td>118</td>
+                                    <td><a href="#"><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></a></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#"><i class="fas fa-play-circle"></i></a></td>
+                                    <td>Usuario</td>
+                                    <td><a href="#"><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></a></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#"><i class="fas fa-play-circle"></i></a></td>
+                                    <td>Usuario</td>
+                                    <td><a href="#"><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></a></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#"><i class="fas fa-play-circle"></i></a></td>
+                                    <td>Usuario</td>
+                                    <td><a href="#"><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></a></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#"><i class="fas fa-play-circle"></i></a></td>
+                                    <td>Usuario</td>
+                                    <td><a href="#"><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></a></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#"><i class="fas fa-play-circle"></i></a></td>
+                                    <td>Usuario</td>
+                                    <td><a href="#"><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></a></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#"><i class="fas fa-play-circle"></i></a></td>
+                                    <td>Usuario</td>
+                                    <td><a href="#"><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></a></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#"><i class="fas fa-play-circle"></i></a></td>
+                                    <td>Usuario</td>
+                                    <td><a href="#"><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></a></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#"><i class="fas fa-play-circle"></i></a></td>
+                                    <td>Usuario</td>
+                                    <td><a href="#"><button type="button" class="btn btn-primary list-camp__form__okbtn">Explorar</button></a></td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </form>-->
+
+
+
+        <!--contact list-->
+        <section class="campaing-description">
+            <div style="margin-right: 0px;" class="row">
+                <h1>Nombre de Contact List</h1>
+                <p class="campain-description__p">Archivos: <span style="font-weight: 800;color: #666666;">65</span>
+                    <a style="margin-left: 100px; font-size: 28px;color: black;" href="#"><i
+                            class="fas fa-play-circle"></i></a>
+                </p>
+            </div>
+        </section>
+
+
+        <form class="list-camp">
+            <div class="form-group">
+                <div>
+                    <div class="">
+                        <table class="table">
+                            <thead class="thead">
+                                <tr>
+                                    <th style="padding-left: 76px;min-width: 140px;" scope="col">Explorar</th>
+                                    <th scope="col">Nombre de Usuario</th>
+                                    <th scope="col">Numero 1</th>
+                                    <th scope="col">Numero 2</th>
+                                    <th scope="col">Dato1</th>
+                                    <th scope="col">Dato2</th>
+                                    <th scope="col">Dato3</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><button type="button"
+                                            class="btn btn-primary list-camp__form__okbtn list-camp__explorar">Explorar</button></td>
+                                    <td>Usuario</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    <td><button type="button"
+                                            class="btn btn-primary list-camp__form__okbtn list-camp__explorar">Explorar</button></td>
+                                    <td>Usuario</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    <td><button type="button"
+                                            class="btn btn-primary list-camp__form__okbtn list-camp__explorar">Explorar</button></td>
+                                    <td>Usuario</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    <td><button type="button"
+                                            class="btn btn-primary list-camp__form__okbtn list-camp__explorar">Explorar</button></td>
+                                    <td>Usuario</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    <td><button type="button"
+                                            class="btn btn-primary list-camp__form__okbtn list-camp__explorar">Explorar</button></td>
+                                    <td>Usuario</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    <td><button type="button"
+                                            class="btn btn-primary list-camp__form__okbtn list-camp__explorar">Explorar</button></td>
+                                    <td>Usuario</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    <td><button type="button"
+                                            class="btn btn-primary list-camp__form__okbtn list-camp__explorar">Explorar</button></td>
+                                    <td>Usuario</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    <td><button type="button"
+                                            class="btn btn-primary list-camp__form__okbtn list-camp__explorar">Explorar</button></td>
+                                    <td>Usuario</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                                <tr>
+                                    <td><button type="button"
+                                            class="btn btn-primary list-camp__form__okbtn list-camp__explorar">Explorar</button></td>
+                                    <td>Usuario</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                    <td>118</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>-->
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
